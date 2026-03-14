@@ -1,0 +1,90 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #0077b6 0%, #00b4d8 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar .navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+}
+.navbar .nav-link {
+  color: #caf0f8 !important;
+  font-weight: 500;
+  margin-right: 8px;
+}
+.navbar .nav-link.active {
+  color: #ffd166 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #023e8a;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.table-primary th {
+  background: #00b4d8 !important;
+  color: #fff;
+}
+.btn, .btn-primary {
+  background: #00b4d8;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: #0077b6;
+}
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  margin-bottom: 2rem;
+}
+.card-body {
+  padding: 2rem;
+}
+a {
+  color: #00b4d8;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #0077b6;
+  text-decoration: underline;
+}
+.modal-content {
+  border-radius: 16px;
+}
+.modal-header {
+  background: #00b4d8;
+  color: #fff;
+  border-bottom: none;
+}
+.modal-footer {
+  border-top: none;
+}
+.App-logo {
+  height: 48px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
